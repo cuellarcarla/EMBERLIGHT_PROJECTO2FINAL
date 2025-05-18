@@ -1,0 +1,80 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #d7e8c1;
+  border-bottom: 1px solid #c3d6b5;
+  color: #686868;
+  position: relative;
+  z-index: 1;
+}
+  
+.nav-left {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-weight: bold;
+}
+
+.nav-right {
+    display: flex;
+    margin-left: auto;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.nav-icon {
+    color: #5E8956;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.nav-icon:hover {
+color: limegreen;
+}
+
+.logo {
+    height: 30px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #686868;
+    font-size: 16px;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+.dropdown {
+    position: absolute;
+    top: 60px;
+    right: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 5px rgb(0, 0, 0, 0.1);
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 100;
+}
+
+.logout-option, .profile-option {
+    padding: 8px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.logout-option:hover, .profile-option:hover {
+    background-color: #f1f1f1;
+}
+
+.logo-link img {
+    border: 1px solid #ddd;
+    border-radius: 0.25rem;
+    width: 2rem;
+    height: 2rem;
+    color: black;
+}

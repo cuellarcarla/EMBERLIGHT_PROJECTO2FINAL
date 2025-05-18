@@ -1,0 +1,26 @@
+.chat-layout {
+  display: flex;
+  height: calc(100vh - 82px); /* This is the navbar height, to help make it fit */
+  width: 100%;
+}
+  
+.sidebar-container {
+  width: 335px;
+  min-width: 335px;
+  height: 100%;
+  overflow: hidden;
+  scrollbar-width: none;
+  position: relative;
+}
+
+.sidebar-container::-webkit-scrollbar {
+  display: none;
+}
+
+.chat-content-container {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow: hidden;
+}
